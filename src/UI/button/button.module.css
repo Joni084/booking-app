@@ -1,0 +1,15 @@
+.button{
+    font: inherit;
+    /* background-color: var(--secondary); */
+    cursor: pointer;
+    /* color: var(--textColor); */
+    border: none;
+    color:var(--textColor);
+    background-color: var(--secondary);
+    padding: 10px 15px;
+}
+.button:hover,
+.button:active{
+    background: var(--primaryColor);
+    border-color: var(--primaryColor);
+}

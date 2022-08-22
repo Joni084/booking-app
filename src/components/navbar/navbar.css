@@ -1,0 +1,24 @@
+.navbar{
+  height: 50px;
+  background-color: var(--primaryColor);
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer{
+  width: 100%;
+  max-width: 1024px;
+  color: var(--textColor);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  font-weight: 500;
+}
+.navItems{
+  display: flex;
+  gap: 10px;
+}
+
