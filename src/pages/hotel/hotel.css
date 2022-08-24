@@ -46,7 +46,7 @@
 }
 
 .hotelPriceHighlight {
-  color: #008009;
+  color:var(--text-color-five);
   font-weight: 500;
 }
 
@@ -54,6 +54,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  border-radius: 15px;
 }
 
 .hotelImgWrapper {
@@ -84,7 +85,7 @@
 
 .hotelDetailsPrice {
   flex: 1;
-  background-color: #ebf3ff;
+  background-color: var(--third-color-bg);
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -93,7 +94,7 @@
 
 .hotelDetailsPrice > h1 {
   font-size: 18px;
-  color: #555;
+  color: var(--text-color-three);
 }
 .hotelDetailsPrice > span {
   font-size: 14px;
@@ -141,13 +142,13 @@
   top: 20px;
   right: 20px;
   font-size: 30px;
-  color: lightgray;
-  cursor: pointer;
+color: var(--text-color-six); 
+ cursor: pointer;
 }
 
 .arrow{
   margin: 20px;
   font-size: 50px;
-  color: lightgray;
+  color: var(--text-color-six);
   cursor: pointer;
 }

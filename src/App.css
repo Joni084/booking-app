@@ -1,19 +1,30 @@
 :root {
-    --primaryColor: #583101;
-    --white: #ffffff;
-    --secondary:#A47148;
-    --borders:#E7bc91;
-    --textColor:#fff;
+ 
 
-    --primary-color:#fff;
-    --secondary-color:#fff;
-    --accent-color:#fff;
+    --primary-color-bg:#583101;
+    --secondary-color-bg:#A47148;
+    --third-color-bg:#ffedd8;
+    --additional-color-bg:#fff;
 
-    --text-color-one:#fff;
-    --text-color-two:#fff;
 
-    --button-color-primary:#fff;
-    --button-color-secondary:#fff;
+    --borders-color-one:#E7bc91;
+    --borders-color-two:#583101;
+
+    --text-color-one:#ffffff;
+    --text-color-two:#583101;
+    --text-color-three:#000000;
+    --text-color-four:gray;
+    --text-color-five:#008009;
+    --text-color-six:#ffedd8;
+
+    --icon-color-one:#000000;
+    --icon-color-two:#583101;
+
+    
+
+    --button-color-primary:#583101;
+    --button-color-secondary:#A47148;
     --button-color-tertiary:#fff;
+
     
   }

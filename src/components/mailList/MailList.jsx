@@ -1,4 +1,5 @@
 import "./mailList.css"
+import Button from '../../UI/button/Button'
 
 const MailList = () => {
   return (
@@ -7,7 +8,7 @@ const MailList = () => {
       <span className="mailDesc">Sign up and we'll send the best deals to you</span>
       <div className="mailInputContainer">
         <input type="text" placeholder="Your Email" />
-        <button>Subscribe</button>
+        <Button>Subscribe</Button>
       </div>
     </div>
   )

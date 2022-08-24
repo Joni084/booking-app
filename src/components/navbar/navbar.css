@@ -1,24 +1,27 @@
-.navbar{
+.navbar {
   height: 50px;
-  background-color: var(--primaryColor);
+  background-color: var(--primary-color-bg);
   display: flex;
   justify-content: center;
+  padding-top:20px;
 }
 
-.navContainer{
+.navContainer {
   width: 100%;
   max-width: 1024px;
-  color: var(--textColor);
+  color: var(--text-color-one);
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
-.logo{
-  font-weight: 500;
+.navContainer > h2 {
+  font-weight: 700;
 }
-.navItems{
+
+.navItems {
   display: flex;
   gap: 10px;
 }
-
+.navItems > button{
+  padding: 10px 15px;
+}

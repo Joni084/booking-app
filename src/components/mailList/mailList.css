@@ -1,8 +1,8 @@
 .mail{
   width: 100%;
   margin-top: 50px;
-  background-color:  var(--primaryColor);
-  color: var(--textColor);
+  background-color:  var(--primary-color-bg);
+  color: var(--text-color-one);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,16 +15,20 @@
   height: 30px;
   padding: 10px;
   border: none;
+ outline: none;
   margin-right: 10px;
   border-radius: 5px;
+}
+.mailInputContainer>input:focus{
+  outline: 2px solid var(--borders-color-one);
 }
 
 .mailInputContainer>button{
   height: 50px;
-  background-color: var(--secondary);
-  color: var(--textColor);
+  /* background-color: var(--secondary); */
+  /* color: var(--textColor); */
   font-weight: 500;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  /* border: none; */
+  /* border-radius: 5px; */
+  /* cursor: pointer; */
 }

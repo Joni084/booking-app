@@ -4,6 +4,7 @@ import Header from "../../components/header/Header";
 import MailList from "../../components/mailList/MailList";
 import Footer from "../../components/footer/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Card from '../../UI/card/Card'
 import {
   faCircleArrowLeft,
   faCircleArrowRight,
@@ -124,7 +125,7 @@ const Hotel = (props) => {
                 airport shuttle service.
               </p>
             </div>
-            <div className="hotelDetailsPrice">
+            <Card className="hotelDetailsPrice">
               <h1>Perfect for a 9-night stay!</h1>
               <span>
                 Located in the real heart of Krakow, this property has an
@@ -134,7 +135,7 @@ const Hotel = (props) => {
                 <b>$945</b> (9 nights)
               </h2>
               <Button >Reserve or Book Now!</Button>
-            </div>
+            </Card>
           </div>
         </div>
         <MailList />

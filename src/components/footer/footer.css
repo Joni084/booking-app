@@ -18,6 +18,9 @@
 
 .fListItem{
   margin-bottom: 10px;
-  color: #003580;
+  color: var(--text-color-two);
   cursor: pointer;
+}
+.fText{
+  text-align: center;
 }
