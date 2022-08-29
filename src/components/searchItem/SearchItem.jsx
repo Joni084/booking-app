@@ -1,8 +1,17 @@
 import "./searchItem.css";
 import Button from "../../UI/button/Button";
 import Card from "../../UI/card/Card";
+import { useNavigate } from "react-router-dom";
+
+
 
 const SearchItem = () => {
+  
+  const navigate = useNavigate();
+  const handleSearch = () => {
+    navigate("/hotels/23");
+  };
+
   return (
     <Card>
       <div className="searchItem">
@@ -34,7 +43,7 @@ const SearchItem = () => {
           <div className="siDetailTexts">
             <span className="siPrice">$112</span>
             <span className="siTaxOp">Includes taxes and fees</span>
-            <Button className="siCheckButton">See availability</Button>
+            <Button className="siCheckButton" onClick={handleSearch}>See availability</Button>
           </div>
         </div>
       </div>

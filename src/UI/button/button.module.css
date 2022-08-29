@@ -5,15 +5,15 @@
     /* color: var(--textColor); */
     border: none;
     user-select: none; 
-    color:var(--textColor);
-    background-color: var(--secondary);
+    color:var(--text-color-one);
+    background-color: var(--secondary-color-bg);
     /* padding: 10px 15px; */
     border-radius: 5px;
 }
 .button:hover,
 .button:active{
-    background: var(--primaryColor);
+    background: var( --primary-color-bg);
    /* border: 0.5px solid var(--secondary); */
-   outline: 1px solid var(--secondary);
+   outline: 1px solid var(--borders-color-one);
 }
 
